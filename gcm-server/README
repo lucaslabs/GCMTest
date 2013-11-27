@@ -1,0 +1,23 @@
+To run this application, you must have an Application ID.
+For details, see:
+
+http://developer.android.com/google/gcm/gs.html
+
+IMPORTANT: This is a NodeJs app, so you need to do the following to run the "Server app":
+
+1. Download and Install NodeJs: http://nodejs.org
+
+2. Install Express web framework
+	npm install -g express@3.0
+
+3. Install Node-GCM: https://github.com/ToothlessGear/node-gcm
+	npm install -g node-gcm
+
+4. Install Dialog (to show Dialog messages in the "Server app" because Alert does not exist): https://github.com/tomas/dialog
+	npm install -g dialog
+
+5. Execute the "Server app"
+	i.   Open a CMD console and change directory to "Server app" project folder.
+	ii.  Run the command "node app"
+	iii. Go to the browser and enter the URL: http://localhost:3000
+		 A “Welcome to GCM Server" message should be shown

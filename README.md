@@ -21,4 +21,4 @@ Features of the "Server app":
 4. Provide an API to send a message to the registered "Client app"s.
 5. Provide an UI that shows to the user the registered "Client app"s and allows the user to select one or more of the registered "Client app"s to send to it/them a message.
 
-REMEMBER: The "Server app" is a NodeJs app.
+REMEMBER: the "Server app" is a NodeJs app.
