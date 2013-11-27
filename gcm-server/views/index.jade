@@ -1,0 +1,14 @@
+body
+  h1= title
+  p Welcome to #{title}  
+  form(action="/send",method="post")
+    p Connected devices:
+    p
+      select(name="receptors", multiple="multiple", style='width:500px;')
+        for recep in receptors
+          option(value="#{recep}")= recep.slice(0,24)+"..."
+    p Send message:	  
+    p	  
+      textarea(name="message", style='width:500px; height:100px;')
+    p
+      input(type="Submit")
